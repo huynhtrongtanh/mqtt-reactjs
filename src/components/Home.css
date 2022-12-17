@@ -1,0 +1,46 @@
+.home-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.home-header span {
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-container {
+    max-width: 500px;
+}
+
+.main-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+
+.main-row span {
+    margin: 0px 20px 0px 0px;
+    flex: 1;
+}
+
+.trang-thai {
+    flex: 1;
+}
+
+.main-row button{
+    flex: 1;
+    margin: 10px;
+}
